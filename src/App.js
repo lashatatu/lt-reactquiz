@@ -98,7 +98,7 @@ const App = () => {
   );
 
   useEffect(() => {
-    fetch("http://localhost:9000/questions")
+    fetch("https://reactquizjsonserver-git-master-lashatatu.vercel.app/questions")
       .then((res) => res.json())
       .then((data) =>
         dispatch({

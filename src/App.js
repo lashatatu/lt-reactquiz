@@ -98,7 +98,7 @@ const App = () => {
   );
 
   useEffect(() => {
-    fetch("https://lt-reactquiz.vercel.app/questions")
+    fetch("http://localhost:9000/questions")
       .then((res) => res.json())
       .then((data) =>
         dispatch({
